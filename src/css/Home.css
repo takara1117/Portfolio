@@ -1,0 +1,19 @@
+.home_img {
+  background-image: url(../images/view.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* padding-top: 66.640625%; */
+  /* padding-top: 51%; */
+  height: 90vh;
+  width: 100%;
+}
+
+.home p {
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}

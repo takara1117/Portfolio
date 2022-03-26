@@ -1,0 +1,54 @@
+.pros_and_cons {
+  background-color: rgb(82, 82, 82);
+  font-size: 30px;
+}
+
+.heading {
+  margin-top: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.pros_and_cons h1 {
+  margin-top: auto;
+  border-bottom: solid 3px #ffffff;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.pros_and_cons_contents {
+  padding-top: 3%;
+  color: #ffffff;
+}
+
+.strong_points {
+  margin-left: 10%;
+}
+
+.strong_points h2 {
+  text-shadow: 3px 5px 6px #ff0303;
+}
+
+.strong_points p {
+  margin-left: 5%;
+  line-height: 60px;
+}
+
+.weak_points {
+  padding-top: 5%;
+  margin-left: 10%;
+}
+
+.weak_points h2 {
+  text-shadow: 3px 5px 6px #1003ff;
+}
+
+.weak_points p {
+  margin-left: 5%;
+  line-height: 60px;
+}
+
+.br::before {
+  content: "\A";
+  white-space: pre;
+}
