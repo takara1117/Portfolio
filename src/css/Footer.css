@@ -1,21 +1,51 @@
 .footer {
   width: 100%;
-  background-color: #f5f5f5;
-  /* background-color: red; */
-  height: 60px;
+  background-color: #ffffff;
   position: relative;
   bottom: 0;
 
   display: flex;
   flex-direction: row;
-  position: fixed;
   justify-content: center;
 }
 .icon {
-  transform: scale(1.8);
-  padding-top: 17px;
+  transform: scale(1.7);
+  padding-top: 12px;
   cursor: pointer;
 }
 .sns_icon {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    height: 53px;
+  }
+  .icon {
+    transform: scale(1.5);
+    padding-top: 14px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    height: 48px;
+  }
+  .icon {
+    transform: scale(1.4);
+    padding-top: 10px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .footer {
+    height: 40px;
+  }
+  .icon {
+    transform: scale(1.2);
+    padding-top: 10px;
+    cursor: pointer;
+  }
 }

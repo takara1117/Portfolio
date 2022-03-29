@@ -10,6 +10,7 @@
 }
 
 .pros_and_cons h1 {
+  padding-top: 100px;
   margin-top: auto;
   border-bottom: solid 3px #ffffff;
   color: #ffffff;
@@ -51,4 +52,71 @@
 .br::before {
   content: "\A";
   white-space: pre;
+}
+
+@media screen and (max-width: 1280px) {
+  .pros_and_cons h1 {
+    font-size: 40px;
+  }
+  .strong_points h2 {
+    font-size: 35px;
+  }
+  .strong_points p {
+    line-height: 55px;
+    font-size: 25px;
+  }
+
+  .weak_points h2 {
+    font-size: 35px;
+  }
+  .weak_points p {
+    line-height: 55px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pros_and_cons h1 {
+    font-size: 35px;
+  }
+  .strong_points h2 {
+    font-size: 30px;
+  }
+  .strong_points p {
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+  .weak_points h2 {
+    font-size: 30px;
+  }
+  .weak_points p {
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pros_and_cons h1 {
+    font-size: 30px;
+  }
+  .strong_points h2 {
+    font-size: 25px;
+  }
+  .strong_points p {
+    margin-left: 1%;
+    line-height: 45px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .weak_points h2 {
+    font-size: 25px;
+  }
+  .weak_points p {
+    margin-left: 1%;
+    line-height: 45px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
 }
