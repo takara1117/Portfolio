@@ -9,6 +9,7 @@
 }
 
 .profile h1 {
+  padding-top: 100px;
   margin-top: auto;
   border-bottom: solid 3px #ffffff;
   color: #ffffff;
@@ -43,4 +44,38 @@
 
 .hidden {
   padding-top: 10%;
+}
+
+@media screen and (max-width: 1280px) {
+  .profile {
+    font-size: 20px;
+  }
+  .profile h1 {
+    font-size: 40px;
+  }
+
+  .profile_contents dd {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .profile h1 {
+    font-size: 35px;
+  }
+  .profile_contents dl {
+    margin-left: 95px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile h1 {
+    font-size: 30px;
+  }
+  .my_image {
+    display: none;
+  }
+  .profile_contents dd {
+    margin-left: 180px;
+  }
 }

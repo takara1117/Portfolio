@@ -10,6 +10,7 @@
 }
 
 .hobby h1 {
+  padding-top: 100px;
   margin-top: auto;
   border-bottom: solid 3px #ffffff;
   color: #ffffff;
@@ -60,11 +61,92 @@
   justify-content: space-around;
 }
 .cooking_contents p {
-  /* padding-top: 3%; */
   line-height: 60px;
 }
 
 .br::before {
   content: "\A";
   white-space: pre;
+}
+
+@media screen and (max-width: 1280px) {
+  .hobby {
+    font-size: 20px;
+  }
+  .hobby h1 {
+    font-size: 40px;
+  }
+  .hobby_soccer h2 {
+    font-size: 35px;
+  }
+  .soccer_contents p {
+    padding-top: 0%;
+    line-height: 55px;
+    margin-right: 3%;
+    font-size: 25px;
+  }
+
+  .hobby_cooking h2 {
+    font-size: 35px;
+  }
+  .cooking_contents p {
+    line-height: 55px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hobby h1 {
+    font-size: 35px;
+  }
+  .hobby_soccer h2 {
+    font-size: 30px;
+  }
+  .soccer_image {
+    width: 35%;
+  }
+  .soccer_contents p {
+    padding-top: 0%;
+    line-height: 50px;
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  .hobby_cooking h2 {
+    font-size: 30px;
+  }
+  .cooking_contents p {
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .cooking_image {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hobby h1 {
+    font-size: 30px;
+  }
+  .hobby_soccer h2 {
+    font-size: 25px;
+  }
+  .soccer_image {
+    display: none;
+  }
+
+  .soccer_contents p {
+    line-height: 45px;
+    font-size: 18px;
+  }
+  .hobby_cooking h2 {
+    font-size: 25px;
+  }
+  .cooking_contents p {
+    line-height: 45px;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  .cooking_image {
+    display: none;
+  }
 }
