@@ -136,15 +136,14 @@
 
   .soccer_contents p {
     line-height: 45px;
-    font-size: 18px;
+    font-size: 13px;
   }
   .hobby_cooking h2 {
     font-size: 25px;
   }
   .cooking_contents p {
     line-height: 45px;
-    font-size: 16px;
-    white-space: nowrap;
+    font-size: 13px;
   }
   .cooking_image {
     display: none;
