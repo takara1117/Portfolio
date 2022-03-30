@@ -44,8 +44,8 @@ body {
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   .pc_nav a {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
