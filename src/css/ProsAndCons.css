@@ -106,7 +106,7 @@
   .strong_points p {
     margin-left: 1%;
     line-height: 45px;
-    font-size: 13px;
+    font-size: 16px;
     white-space: nowrap;
   }
 
@@ -116,7 +116,7 @@
   .weak_points p {
     margin-left: 1%;
     line-height: 45px;
-    font-size: 13px;
+    font-size: 16px;
     white-space: nowrap;
   }
 }
